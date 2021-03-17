@@ -1,0 +1,20 @@
+{
+    "name": "zoo/loginpackget",
+    "description": "Login To Zoo Server",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Zoo\\" : "src/"
+        }
+    },
+    "extra": {
+        "laravel" : {
+            "providers" : [
+                "Zoo\\ZooPackageProvider"
+            ]
+        }
+    }
+}
